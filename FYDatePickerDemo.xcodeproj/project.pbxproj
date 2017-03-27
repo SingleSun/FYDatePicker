@@ -15,6 +15,8 @@
 		A605EB0F1E88E81A00BF9AF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A605EB0D1E88E81A00BF9AF4 /* LaunchScreen.storyboard */; };
 		A605EB1A1E88E81B00BF9AF4 /* FYDatePickerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A605EB191E88E81B00BF9AF4 /* FYDatePickerDemoTests.m */; };
 		A605EB251E88E81B00BF9AF4 /* FYDatePickerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A605EB241E88E81B00BF9AF4 /* FYDatePickerDemoUITests.m */; };
+		A605EB371E88E83D00BF9AF4 /* CurrentDate.m in Sources */ = {isa = PBXBuildFile; fileRef = A605EB331E88E83D00BF9AF4 /* CurrentDate.m */; };
+		A605EB381E88E83D00BF9AF4 /* FYDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A605EB351E88E83D00BF9AF4 /* FYDatePickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		A605EB201E88E81B00BF9AF4 /* FYDatePickerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYDatePickerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A605EB241E88E81B00BF9AF4 /* FYDatePickerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYDatePickerDemoUITests.m; sourceTree = "<group>"; };
 		A605EB261E88E81B00BF9AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A605EB321E88E83D00BF9AF4 /* CurrentDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentDate.h; sourceTree = "<group>"; };
+		A605EB331E88E83D00BF9AF4 /* CurrentDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentDate.m; sourceTree = "<group>"; };
+		A605EB341E88E83D00BF9AF4 /* FYDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYDatePickerView.h; sourceTree = "<group>"; };
+		A605EB351E88E83D00BF9AF4 /* FYDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYDatePickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		A605EAFE1E88E81A00BF9AF4 /* FYDatePickerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A605EB361E88E83D00BF9AF4 /* FYDatePicker */,
 				A605EB021E88E81A00BF9AF4 /* AppDelegate.h */,
 				A605EB031E88E81A00BF9AF4 /* AppDelegate.m */,
 				A605EB051E88E81A00BF9AF4 /* ViewController.h */,
@@ -138,6 +145,18 @@
 				A605EB261E88E81B00BF9AF4 /* Info.plist */,
 			);
 			path = FYDatePickerDemoUITests;
+			sourceTree = "<group>";
+		};
+		A605EB361E88E83D00BF9AF4 /* FYDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				A605EB321E88E83D00BF9AF4 /* CurrentDate.h */,
+				A605EB331E88E83D00BF9AF4 /* CurrentDate.m */,
+				A605EB341E88E83D00BF9AF4 /* FYDatePickerView.h */,
+				A605EB351E88E83D00BF9AF4 /* FYDatePickerView.m */,
+			);
+			name = FYDatePicker;
+			path = ../../../../BMSDemo/BMSDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,8 +293,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A605EB071E88E81A00BF9AF4 /* ViewController.m in Sources */,
+				A605EB371E88E83D00BF9AF4 /* CurrentDate.m in Sources */,
 				A605EB041E88E81A00BF9AF4 /* AppDelegate.m in Sources */,
 				A605EB011E88E81A00BF9AF4 /* main.m in Sources */,
+				A605EB381E88E83D00BF9AF4 /* FYDatePickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
